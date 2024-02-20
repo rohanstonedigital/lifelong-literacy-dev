@@ -1,0 +1,107 @@
+/* 
+* CSS TABLE OF CONTENTS
+*  
+* 1.0 Generic CSS
+* 2.0 Layout
+*/
+/*******************************************************************
+ * 1.0 Generic CSS
+ *******************************************************************/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*******************************************************************
+  * 2.0 Layout
+  *******************************************************************/
+
+.page-hader__bg-image {
+  background: url('https://dev.lifelongliteracy.com/wp-content/uploads/2024/01/lifelong-literacy-page-header-1.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+}
+
+.page-header__content {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+  padding: 46px 36px;
+  margin-top: -145px;
+  margin-bottom: 46px;
+}
+
+.page-header__content__title {
+  margin: 0 53px;
+}
+
+.page-header__content__title span {
+  padding: 3px 12px; 
+  border-radius: 20px;
+  background: #E5E5E5; 
+  color: #000;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+
+.page-header__content__title h1 {
+  color: #000;
+  font-family: Barlow Condensed;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-transform: uppercase; 
+}
+
+.page-header__course-progress {
+  text-align: center;
+}
+
+.page-header__course-progress span {
+  color: #000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+
+.single-sfwd-courses .page-content {
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+
+.single-sfwd-courses .content-area {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.single-sfwd-courses .content-area .entry-content {
+  flex: 3;
+}
+
+.single-sfwd-courses .content-area aside {
+  flex: 1;
+  width: 417px;
+}
+
+@media only screen and (min-width: 768px)  {
+  .single-sfwd-courses .content-area {
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      gap: 22px;
+  }
+}
